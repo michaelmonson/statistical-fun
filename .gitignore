@@ -1,8 +1,11 @@
 # Compiled class file
 *.class
 
-# Log file
+# Ignore logs
+logs/
 *.log
+**/*.log
+**/log/
 
 # BlueJ files
 *.ctxt
@@ -25,3 +28,32 @@ hs_err_pid*
 # Ancillary Files:
 target/classes
 target/test-classes
+
+# Ignore build folders
+target/
+**/target/
+
+# Ignore Netbeans Maven extensions
+nbactions*.xml
+nb-configuration*.xml
+**/nbactions*.xml
+**/nb-configuration*.xml
+
+# Ignore IntelliJ project meta-data
+.idea
+*.iml
+**/.idea
+**/*.iml
+
+# Ignore Eclipse project meta-data
+.project
+.classpath
+.settings
+.factorypath
+**/.project
+**/.classpath
+**/.settings
+
+# Ignore OSX specific files
+.DS_Store
+**/.DS_Store
