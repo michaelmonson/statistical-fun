@@ -9,6 +9,14 @@
   <artifactId>statistical-fun</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <!-- Currently building using Java 8 compiler, not version 12!
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>12</maven.compiler.source>
+    <maven.compiler.target>12</maven.compiler.target>
+  </properties>
+  -->  
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
