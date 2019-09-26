@@ -54,11 +54,10 @@
         </dependency>        
         
         <!-- Transforming List into an Array -->
-        <!-- 
         <dependency>
             <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>            
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>            
         </dependency>
-         -->
     </dependencies>
 </project>
