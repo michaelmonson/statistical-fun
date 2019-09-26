@@ -152,7 +152,7 @@ public class StatisticsApplication {
         Options options = getOptions();
 
         HelpFormatter formatter = new HelpFormatter();
-        formatter.printHelp("JavaStatsEx", options, true);
+        formatter.printHelp("JavaStatisticsMain", options, true);
     }
 
     /**
